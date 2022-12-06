@@ -1,0 +1,11 @@
+
+@layer components{
+  .input-style{
+    @apply px-2 py-1 mt-1 rounded bg-transparent border border-gray-800 focus:border-green-500 focus:outline-none
+  }
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
